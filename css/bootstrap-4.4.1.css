@@ -5915,8 +5915,10 @@ a.close.disabled {
 .toast-header {
   display: -ms-flexbox;
   display: flex;
-  background-color: red;
-	color: #33ffff;
+  background-color: white;
+	background-image: url("../images/header_back.png");
+	color: white;
+	opacity: 0.80;
   align-items: center;
   padding: 0.25rem 0.75rem;
   background-clip: padding-box;

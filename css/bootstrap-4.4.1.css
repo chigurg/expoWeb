@@ -4781,9 +4781,14 @@ input[type="button"].btn-block {
 background-color: white;
   min-height: 1px;
   padding: 1.25rem;
-	
-	
 }
+
+	
+.imgg {
+    max-width: 100%;
+    max-height: auto;
+}
+	
 
 .card-title {
   margin-bottom: 0.75rem;

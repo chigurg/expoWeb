@@ -169,7 +169,7 @@ nav a:hover {
 /*------------------------------------------Content------------------------------------ */
 .content {
   background-size: cover;
-  display: grid;  /*-niet veranderen---- */
+  display: flex;  /*-niet veranderen---- */
   width: 90%;
   margin-left: 5%;
   
@@ -184,7 +184,10 @@ h1 {
 
 }
 
-
+.sheet img {
+	height: auto;
+	width: 200px;
+}
 
 .uitleg {
 	text-align: justify;
@@ -199,10 +202,13 @@ h1 {
 }
 
 .footer {
+	display: block;
+	position: relative;
 	background-color: rgba(0,0,0,0.1);
 	height: 140px;
-	
 }
+
+
 .footer img {
 	display:block;
 	max-width: 100%;

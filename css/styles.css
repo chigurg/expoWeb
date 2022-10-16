@@ -237,7 +237,7 @@ h1 {
   width: 80%;
   height: 4px;
   margin-top: 37px;
-  margin-right: 1em;
+  margin-right: 0.6em;
   left:15px;
   float: right;
   -webkit-border-radius: 15px;
@@ -352,11 +352,7 @@ h1 {
 
 }
 
-@media screen and (max-width: 430px) {
-	.logo {
-		opacity: 0;
-	}
-}
+
 
 @media screen and (max-width: 1400px) {
 	
@@ -365,7 +361,7 @@ h1 {
 }
 }
 
-@media screen and (max-width: 667px){
+@media screen and (max-width: 682px){
 	#timeline {
   width: 76%;
 }
@@ -418,5 +414,39 @@ h1 {
 	
 	#timeline  {
 		margin-top: 32px;
+	}
+}
+
+@media screen and (max-width: 569px){
+	#timeline {
+  		width: 70%;
+	}
+	
+	h1 a {
+		font-size: 38px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#timeline {
+  		width: 67%;
+	}
+	h1 a {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.logo {
+		opacity: 0;
+	}
+	#timeline {
+  		width: 60%;
+	}
+}
+
+@media screen and (max-width: 534px) {
+	#timeline {
+  		opacity: 0;
 	}
 }

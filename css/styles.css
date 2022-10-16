@@ -226,9 +226,10 @@ h1 {
 
 #pButton {
   float: left;
-	background-color: white;
-	border: none;
-
+  background-color: white;
+  border: none;
+  margin-top: 0px;
+  cursor: pointer;
 }
 
 #timeline {
@@ -236,15 +237,13 @@ h1 {
   height: 2px;
   margin-top: 27px;
   margin-right: 1em;
+  left:15px;
   float: right;
   -webkit-border-radius: 15px;
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.3); }	
 
-#pButton {
-  margin-top: 5px;
-  cursor: pointer;
-}
+
 
 #playhead {
   width: 8px;
@@ -258,18 +257,9 @@ h1 {
 #play-icon {
 	border: white;
 	background-color: white;
-	
-	
-	
 }
 
-.playimage {
-	width: 20px;
-	height: 20px;
-	background-color: white;	
-	
-	
-}
+
 
 
 

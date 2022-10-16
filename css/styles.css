@@ -33,6 +33,7 @@ header {
 
 h1 {
 	position: relative;
+	
 }
 
 
@@ -237,7 +238,7 @@ h1 {
   float: right;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(0, 0, 0, 0.3); }	
 
 #pButton {
   margin-top: 5px;
@@ -288,8 +289,10 @@ h1 {
   
   .logo {
     grid-column: 2 / 3;
+	
   }
   
+	
   nav {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
     
@@ -370,4 +373,34 @@ h1 {
 @media screen and (max-width: 667px){
 	#timeline {
   width: 76%;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+	h2 {
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 20px;
+		margin-top: 1%;
+	}
+	.uitleg {
+		font-size: 19px;
+		margin-top: 14%;
+	}
+
+	.foto {
+		display: flex;
+		justify-content: center;
+	}
+	img {
+		max-height: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	
 }

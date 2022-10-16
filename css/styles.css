@@ -105,6 +105,7 @@ nav a:hover {
   position: absolute !important;
   top: -9999px !important;
   left: -9999px !important;
+  cursor: pointer;
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
@@ -126,8 +127,8 @@ nav a:hover {
 .nav-toggle-label span::after {
   display: block;
   background: white;
-  height: 2px;
-  width: 2em;
+  height: 5px;
+  width: 2.8em;
   border-radius: 2px;
   position: relative;
 }
@@ -139,11 +140,11 @@ nav a:hover {
 }
 
 .nav-toggle-label span::before {
-  bottom: 7px;
+  bottom: 12px;
 }
 
 .nav-toggle-label span::after {
-  top: 7px;
+  top: 12px;
 }
 
 
@@ -374,10 +375,14 @@ h1 {
 	#timeline {
   width: 76%;
 }
-
-h1 {
-	font-size: 36px;
 }
+
+
+
+@media screen and (max-width: 1000px){
+	h1 {
+		font-size: 36px;
+	}
 
 	h2 {
 		font-size: 32px;
@@ -402,5 +407,13 @@ h1 {
 		margin-right: auto;
 		
 	}
+	nav a {
+		font-size: 80px; 
+	}
+	
+	.logo {
+		max-width: 450px;
+	}
+
 	
 }

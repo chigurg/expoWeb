@@ -191,7 +191,7 @@ h1 {
 }
 
 .uitleg {
-	text-align: left;
+	text-align: justify;
 	position: relative;
 	display: block;
 }
@@ -378,7 +378,7 @@ h1 {
 		font-size: 30px;
 	}
 	.box {
-		margin-top: ;
+		margin-top: 10rem;
 	}
 }
 

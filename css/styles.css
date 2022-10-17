@@ -37,25 +37,24 @@ h1 {
 }
 
 
-  h1::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background: #89F0E7;
-    position: absolute;
-    top: -.2em;
-    left: 0;
-    right: 0;
-    transform: scale(0, 1);
-    transition: transform ease-in-out 150ms;
-  }
-  
+h1::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background: #89F0E7;
+	position: absolute;
+	top: -.2em;
+	left: 0;
+	right: 0;
+	transform: scale(0, 1);
+	transition: transform ease-in-out 150ms;
+}
+
 .logosmall {
 	display: none;
 }
 
-
-/*---------------------------------------------NAVBAR----------------------------------------- */
+/*-----------------------------------------NAVBAR----------------------------------------- */
 nav {
   position: absolute;
   text-align: right;
@@ -195,12 +194,11 @@ h1 {
 	text-align: left;
 	position: relative;
 	display: block;
-	margin-top: 100px;
 }
 
 .box {
 	display: block;
-	margin-top: 80px;
+	margin-top: 6rem;
 }
 
 .footer {
@@ -224,50 +222,6 @@ h1 {
 	
 }
 
-
-
-#pButton {
-  float: left;
-  background-color: white;
-  border: none;
-  margin-top: 0px;
-  cursor: pointer;
-}
-#audioplayer i figure img {
-		width: 20px;
-		height: 20px; 
-	}
-#timeline {
-  width: 80%;
-  height: 2px;
-  margin-top: 37px;
-  margin-right: 0.6em;
-  left:15px;
-  float: right;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.3); }	
-
-
-
-#playhead {
-  width: 8px;
-  height: 8px;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin-top: -3px;
-  background: black;
-  cursor: pointer; }
-
-#play-icon {
-	border: white;
-	background-color: white;
-}
-
-
-
-
-
 /*------------------------------------VIEWPORT SIZING------------------------------------------*/
 
 @media screen and (min-width: 1000px) {
@@ -288,9 +242,6 @@ h1 {
 	
   }
   
-	#timeline {
-		max-width: 72%;
-	}
 	
   nav {
     // all: unset; /* this causes issues with Edge, since it's unsupported */
@@ -351,24 +302,17 @@ h1 {
   display: grid;  /*-niet veranderen---- */
   width: 60%;
   margin-left: 20%;
-  
-}
-
+	}
 }
 
 
 
 @media screen and (max-width: 1400px) {
 	
-#timeline {
-  width: 80%;	
-}
 }
 
 @media screen and (max-width: 682px){
-	#timeline {
-  width: 76%;
-}
+	
 }
 
 
@@ -379,7 +323,7 @@ h1 {
 	}
 	
 	.box {
-	margin-top: 100px;
+	margin-top: 8rem;
 	}
 	
 	h1 {
@@ -396,7 +340,6 @@ h1 {
 	}
 	.uitleg {
 		font-size: 20px;
-		margin-top: 14%;
 	}
 
 	.foto {
@@ -415,41 +358,30 @@ h1 {
 		font-size: 80px; 
 	}
 	
-	#timeline  {
-		margin-top: 32px;
-	}
 }
 
 @media screen and (max-width: 600px){
-	#timeline {
-  		width: 70%;
-	}
-	
 	h1 a {
 		font-size: 38px;
 	}
 }
 
-@media screen and (max-width: 500px){
-	#timeline {
-  		width: 67%;
+@media screen and (max-width: 550px){
+	.logosmall {
+		display: block;
+		margin-right: 4rem;
+	}
+	.logo {
+		display: none;
 	}
 	h1 a {
-		font-size: 32px;
+		font-size: 30px;
+	}
+	.box {
+		margin-top: ;
 	}
 }
 
-@media screen and (max-width: 430px) {
-	.logo {
-		opacity: 1;
-	}
-	#timeline {
-  		width: 60%;
-	}
 }
 
-@media screen and (max-width: 534px) {
-	#timeline {
-  		opacity: 1;
-	}
-}
+

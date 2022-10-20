@@ -157,6 +157,57 @@ nav a:hover {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+/*------------------------------------------PLANNETJE---------------------------------------- */
+.plan {
+	position: relative;
+	background-color: gray;
+}
+
+.hide {
+	background-color: blue;
+	text-align: center;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.w1-txt {
+	top: 10%;
+	left: 45%;
+}
+
+.num1 {
+	
+}
+
+.num2{
+	
+}
+
+.num3 {
+	
+}
+
+.num4 {
+	
+}
+
+.num5 {
+	
+}
+
+.num6 {
+	
+}
+
+.num7 {
+	
+}
+
+.num8 {
+	
+}
+
+
 /*------------------------------------------LOGO ETC---------------------------------------- */
 
 .logo a {

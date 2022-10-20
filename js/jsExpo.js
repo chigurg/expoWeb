@@ -106,3 +106,17 @@
       function getPosition(el) {
           return el.getBoundingClientRect().left;
       }
+
+
+//plannetje
+
+$(document).ready(function(){
+  $(".hide").hide();
+  
+  
+  $(".num1").click(function(){
+    $(".hide").hide();
+    $(".w1-txt").fadeIn(300);
+  });
+
+});

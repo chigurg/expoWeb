@@ -13,7 +13,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Roboto', serif;g
+	font-family: 'Roboto', serif;
 	font-weight: 400;
 	background-color: white;
 	
@@ -187,9 +187,16 @@ h1 {
 
 }
 
+.sheet {
+	max-width: 100%;
+	contain: content;
+	padding-bottom: 4rem;
+}
+
 .sheet img {
 	height: auto;
 	width: 200px;
+	
 }
 
 .uitleg {
@@ -197,6 +204,8 @@ h1 {
 	position: relative;
 	display: block;
 }
+
+
 
 
 footer {
@@ -408,7 +417,6 @@ svg {
 		font-size: 80px; 
 	}
 	
-	
 }
 
 @media screen and (max-width: 600px){
@@ -465,6 +473,5 @@ svg {
 	
 }
 
-}
 
 

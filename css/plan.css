@@ -33,22 +33,11 @@ header {
 
 h1 {
 	position: relative;
-	
+	line-height: 20px;
 }
 
 
-h1::before {
-	content: '';
-	display: block;
-	height: 5px;
-	background: #89F0E7;
-	position: absolute;
-	top: -.2em;
-	left: 0;
-	right: 0;
-	transform: scale(0, 1);
-	transition: transform ease-in-out 150ms;
-}
+
 
 .logosmall {
 	display: none;
@@ -190,8 +179,7 @@ nav a:hover {
 	display: block;
 	margin-top: 6rem; 
 	contain: content;
-	border: medium solid red;
-	contain: contents;
+	
 }
 
 h1 {
@@ -218,6 +206,57 @@ h1 {
 	height: 140px;
 	opacity: 0.4;
 	background-image: url("../images/header_back.png")
+}
+
+/*------------------------------------------PLANNETJE---------------------------------------- */
+.plan {
+	position: absolute;
+}
+
+
+svg {
+	max-width: 100%;
+}
+
+.cls-1 {
+	fill: lightgray;
+	border-width: 2px;
+	border-color: red;
+}
+
+.cls-1:hover {
+	fill: gray;
+	
+}
+
+.info {
+	position: absolute;
+}
+
+#work {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#materie {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#info {
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+#link {
+	font-weight: lighter;
+	font-size: 16px;
+}
+#link:hover {
+	font-weight: lighter;
+	font-size: 16px;
+	color: lightgray;
+	text-decoration: underline;
 }
 
 
@@ -302,57 +341,6 @@ h1 {
     transform: scale(1,1);
   }
 
-/*------------------------------------------PLANNETJE---------------------------------------- */
-.plan {
-	position: relative;
-}
-
-
-svg {
-	max-width: 100%;
-}
-
-.cls-1 {
-	fill: lightgray;
-	border-width: 2px;
-	border-color: red;
-}
-
-.cls-1:hover {
-	fill: gray;
-	
-}
-
-.info {
-	position: absolute;
-}
-
-#work {
-	font-weight: bold;
-	font-size: 24px;
-}
-
-#materie {
-	font-style: italic;
-	font-size: 20px;
-}
-
-#info {
-	font-weight: lighter;
-	font-size: 14px;
-}
-
-#link {
-	font-weight: lighter;
-	font-size: 16px;
-}
-#link:hover {
-	font-weight: lighter;
-	font-size: 16px;
-	color: lightgray;
-	text-decoration: underline;
-}
-
 
 /*-------------Content stuff--------------*/	
 .content {
@@ -366,7 +354,9 @@ svg {
 
 
 @media screen and (max-width: 1400px) {
-	
+	svg {
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 682px){
@@ -382,6 +372,7 @@ svg {
 	
 	.box {
 	margin-top: 8rem;
+	position: relative;
 	}
 	
 	h1 {
@@ -416,28 +407,61 @@ svg {
 		font-size: 80px; 
 	}
 	
+	
 }
 
 @media screen and (max-width: 600px){
+	h1 {
+		
+		line-height: 20px;
+		
+	}
+	.logo {
+			margin-bottom: 80px;
+	}
+
 	h1 a {
 		font-size: 38px;
+	}
+	header {
+		padding: 0 0 0 0;
+	}
+	
+	.box {
+		margin-top: 5rem;
+		position: relative;
+	}
+	
+	.plan {
+		position: absolute;
+		top: 0;
 	}
 }
 
 @media screen and (max-width: 550px){
+	body {
+		
+	}
+	
 	.logosmall {
 		display: block;
 		margin-right: 4rem;
+		margin-bottom: 1rem;
+		margin-top: 0.5rem;
 	}
 	.logo {
 		display: none;
 	}
 	h1 a {
-		font-size: 16px;
+		font-size: 20px;
 	}
 	.box {
-		margin-top: 10rem;
+		margin-top: 5rem;
+		
 	}
+	
+	
+	
 }
 
 }

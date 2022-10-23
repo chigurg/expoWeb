@@ -24,6 +24,8 @@ body {
 
 header {
   background-image: url("../images/header_back.png");
+  background-color: rgba(255,255,255,0.1);
+  background-blend-mode: lighten;
   text-align: center;
   position: absolute;
   z-index: 999;
@@ -52,7 +54,7 @@ nav {
   top: 100%;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
+  transition: transform 250ms ease-in-out;
   background: rgba(0,0,0,0.73);
   padding-top: 10px;
 }
@@ -187,6 +189,17 @@ h1 {
 
 }
 
+.foto {
+	display: flex;
+	justify-content: center;
+
+}
+img {
+	margin: min(100% - 5);
+	max-height: 850px;
+}
+
+
 .sheet img {
 	height: auto;
 	width: 200px;
@@ -204,6 +217,8 @@ footer {
 	display: block;
 	bottom: 0;
 	background-image: url("../images/header_back.png");
+	background-color: rgba(255,255,255,0.65);
+    background-blend-mode: lighten;
 	height: 10rem;
 }
 
@@ -307,6 +322,7 @@ svg {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+	
   }
   
   nav ul {
@@ -395,14 +411,16 @@ svg {
 	.foto {
 		display: flex;
 		justify-content: center;
+				
 	}
 	img {
 		max-height: 500px;
 		margin: min(100% - 5);
-		
+
 	}
-	nav{
+	nav {
 		backdrop-filter: blur(6px);
+		padding-bottom: 300vh;
 	}
 	nav a {
 		font-size: 80px; 
